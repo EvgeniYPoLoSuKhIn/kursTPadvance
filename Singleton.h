@@ -2,8 +2,8 @@
 class Singleton {
 
    private:
-   Singleton( const Singleton& );
-   Singleton& operator=( Singleton& );
+    Singleton( const Singleton& );
+    Singleton& operator=( Singleton& );
     char* name;
     char* razmer;
     char* cvet;
